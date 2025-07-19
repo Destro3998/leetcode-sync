@@ -33,4 +33,6 @@ jobs:
           git config --global user.name "LeetCode Bot"
           git config --global user.email "leetcode-bot@users.noreply.github.com"
           git add .
-          git diff --quiet && git diff --staged --quiet || git commit
+          git diff --quiet && git diff --staged --quiet || git commit -m "Sync LeetCode submissions"
+          git push
+
