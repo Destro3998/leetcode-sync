@@ -1,0 +1,52 @@
+"""
+<strong>No-Zero integer</strong> is a positive integer that <strong>does not contain any <code>0</code></strong> in its decimal representation.
+
+
+Given an integer <code>n</code>, return <em>a list of two integers</em> <code>[a, b]</code> <em>where</em>:
+
+
+<ul>
+	<li><code>a</code> and <code>b</code> are <strong>No-Zero integers</strong>.</li>
+	<li><code>a + b = n</code></li>
+</ul>
+
+The test cases are generated so that there is at least one valid solution. If there are many valid solutions, you can return any of them.
+
+
+ 
+
+<strong class="example">Example 1:</strong>
+
+
+<pre>
+<strong>Input:</strong> n = 2
+<strong>Output:</strong> [1,1]
+<strong>Explanation:</strong> Let a = 1 and b = 1.
+Both a and b are no-zero integers, and a + b = 2 = n.
+</pre>
+
+<strong class="example">Example 2:</strong>
+
+
+<pre>
+<strong>Input:</strong> n = 11
+<strong>Output:</strong> [2,9]
+<strong>Explanation:</strong> Let a = 2 and b = 9.
+Both a and b are no-zero integers, and a + b = 11 = n.
+Note that there are other valid answers as [8, 3] that can be accepted.
+</pre>
+
+ 
+
+<strong>Constraints:</strong>
+
+
+<ul>
+	<li><code>2 &lt;= n &lt;= 10<sup>4</sup></code></li>
+</ul>
+
+"""
+
+class Solution:
+    def getNoZeroIntegers(self, n: int) -> List[int]:
+        
